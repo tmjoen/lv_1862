@@ -1,18 +1,8 @@
 # Lv1862
 
-To start your Phoenix server:
-
   * Install dependencies with `mix deps.get`
   * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+  * Open `http://localhost:4000`
+  * Toggle a selected row by clicking the row outside the "Click link" text.
+  * Click the "Click link"-text — if you have persisted log in your dev tools the error will be
+    `utils.js:7 no component found matching phx-target of 1 undefined`
